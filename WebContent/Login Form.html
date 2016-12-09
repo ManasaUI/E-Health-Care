@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head><center><h1>Welcome</h1></center>
+<meta charset="ISO-8859-1">
+<title>loginform</title>
+</head>
+<body bgcolor="#98AFC7" >
+<center>
+<div>
+<img alt="" src="Images/PatientLogin.gif">
+</div>
+</center>
+<center>
+<form action="/E-Health_Care/LoginDetails" method="post">
+<table>
+<tr><td>Email Adderss</td><td><input type="text" name="emailaddress" ></td>
+</tr>
+<tr>
+<td>Password</td><td><input type="password" name="pw"></td>
+</tr>
+</table><br></br>
+
+<input type="submit" value="LOGIN">
+
+<input type="button" value="CANCEL" onclick="nextpage()"><br></br>
+
+
+If you are a new user..!! please <a href="E-Health_Care/RegistrationForm.html">REGISTER</a>    here.
+</table></form></center>
+</body>
+<script>
+function nextpage()
+{
+	 window.location="/E-Health_Care/E-healthcareform.html"
+	}
+</script>
+</html>

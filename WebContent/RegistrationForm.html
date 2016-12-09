@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head><center> <h1>Patients Registration </h1></head></center> <br></br>
+<meta charset="ISO-8859-1">
+<title>Registrationform</title>
+
+<body bgcolor="#98AFC7" background="Images/Patient.jpg"><center>
+<form action="/E-Health_Care/RegistrationDetails" method="get">
+<table>
+<tr>
+<td>First Name</td><td><input type="text" name = "firstname"></td>
+</tr>
+<tr>
+<td>Last Name</td><td><input type="text" name = "lastname"></td>
+</tr>
+<tr>
+<td>Date Of Birth</td><td><input type="date" name="dateofbirth"></td>
+</tr>
+<tr>
+<td>Email Adderss</td><td><input type="text" name="emailaddress"> </td>
+</tr>
+<tr>
+<td>Phone Number</td><td><input type="text" name="phonenumber"></td> 
+</tr>
+<tr>
+<td>Address</td><td><input type="text" name="address"> </td>
+</tr>
+<tr>
+<td>Password</td><td><input type="password" name="pw" ></td>
+</tr>
+</table><br></br>
+<input type="submit" value="SUMBIT" name = "button">
+<input type="button" value="CANCEL"  onclick="npage()"> <br> </br>
+</form>
+If you are Rigistered user then goto <a href="/E-Health_Care/Login%20Form.html">LOGIN
+</a>
+</center>
+</body>
+<script>
+function npage()
+{
+	window.location="/E-Health_Care/E-healthcareform.html"
+	}
+</script>
+
+
+</html>
